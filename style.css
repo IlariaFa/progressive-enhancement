@@ -1,0 +1,55 @@
+body{
+    font-family:'Playfair Display', serif;;
+    width: 60%;
+    margin:auto;
+    line-height: 30px;
+    /* color:rgb(57, 54, 90);*/
+   padding: 30px;
+}
+table{
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 22px;
+    padding-right: 22px;
+    text-align: left;
+    background-color: rgb(168, 196, 194);
+    color: rgb(0, 0, 0);
+    /* margin: auto;*/
+}
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+h1{
+      /* background-color:  rgb(168, 196, 194);
+      padding: 22px;
+      text-align: center;*/
+      font-size: 40px;
+      line-height: 35px;
+    }
+img{
+        width: 100%;
+        
+    }
+ h2{
+        color: rgb(168, 196, 194);
+        font-size: 15px;
+    }
+p{
+        color: rgb(40, 45, 59);
+    }
+a:visited{
+   color: rgb(37, 145, 196);  
+ }
+
+a:hover{
+ text-decoration:underline;
+ color: rgb(216, 34, 110);
+} 
+p::first-letter { 
+    font-size: 150%;
+    color: rgb(68, 57, 78);
+  }
+blockquote{
+    width:50%;
+  }
