@@ -1,5 +1,6 @@
 body{
-    font-family:'Playfair Display', serif;;
+    /* premiere font utilisé à partir de googlefont: border-left-style:'Playfair Display', serif;*/
+    font-family: 'Roboto', sans-serif;
     width: 60%;
     margin:auto;
     line-height: 30px;
@@ -31,6 +32,7 @@ h1{
       text-align: center;*/
       font-size: 40px;
       line-height: 35px;
+      font-family: 'Playfair Display', serif;
     }
 img{
     /*width: 100%;*/
