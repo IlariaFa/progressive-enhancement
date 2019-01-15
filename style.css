@@ -5,6 +5,11 @@ body{
     line-height: 30px;
     /* color:rgb(57, 54, 90);*/
    padding: 30px;
+   background-color:linear-gradient(to right, #FC8B2A,#96CCD7), 0.6;
+   background-image: url("https://i.pinimg.com/originals/5e/57/75/5e57751a32bf2ef4c632938224af85a7.jpg");
+   background-repeat: no-repeat;
+   background-position: bottom right;
+   background-size:cover;
 }
 table{
     padding-top: 22px;
@@ -12,7 +17,7 @@ table{
     padding-left: 22px;
     padding-right: 22px;
     text-align: left;
-    background-color: rgb(168, 196, 194);
+    background-color: rgba(209, 219, 228, 0.527);
     color: rgb(0, 0, 0);
     /* margin: auto;*/
 }
@@ -28,8 +33,10 @@ h1{
       line-height: 35px;
     }
 img{
-        width: 100%;
-        
+    /*width: 100%;*/
+    float: right;
+    width: 300px;
+    margin: 30px;    
     }
  h2{
         color: rgb(168, 196, 194);
@@ -52,4 +59,62 @@ p::first-letter {
   }
 blockquote{
     width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:160%;
+    background-color: rgba(209, 219, 228, 0.527);
+    border-left: 3px rgb(255, 94, 0) solid;
+    padding-left: 30px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    font-style: italic;
+
+  }
+.villageois{
+    border-left: 3px green solid;
+}
+/* .color{
+    background-color: yellow;
+} */
+header span{
+    background-color: yellow;
+}
+em, span, strong{
+   text-transform: capitalize; 
+}
+.bien{
+ color: green;
+}
+.mal{
+ color: red;
+}
+tr:nth-child(odd)/* ou (even)si je veux que ça commence de la deuxieme rangée*/ {
+    background-color: #ffffff;
+}
+ li:first-child{
+    background-image: url('https://github.com/becodeorg/BXL-Johnson-3.9/raw/master/Projets/progressive-enhancement/bien.png');
+    background-repeat: no-repeat;
+    padding-right: 10px;
+}
+/* #pousseoui{
+    background-image: url('https://github.com/becodeorg/BXL-Johnson-3.9/raw/master/Projets/progressive-enhancement/bien.png') no-repeat right;
+    padding-right: 20px;
+}*/
+li:nth-child(2){
+  background-image: url('https://github.com/becodeorg/BXL-Johnson-3.9/raw/master/Projets/progressive-enhancement/mal.png');
+background-repeat: no-repeat;
+display: inline;
+}
+li:nth-child(3){
+    background-image: url('https://github.com/becodeorg/BXL-Johnson-3.9/raw/master/Projets/progressive-enhancement/chat.png');
+    background-repeat: no-repeat;
+}
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    /* rajoute le code nécessaire ici*/
   }
