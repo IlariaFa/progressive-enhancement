@@ -6,11 +6,11 @@ body{
     line-height: 30px;
     /* color:rgb(57, 54, 90);*/
    padding: 30px;
-   background-color:linear-gradient(to right, #FC8B2A,#96CCD7), 0.6;
-   background-image: url("https://i.pinimg.com/originals/5e/57/75/5e57751a32bf2ef4c632938224af85a7.jpg");
+   background-image:linear-gradient(to right, #FC8B2A,#96CCD7);
+   /*background-image: url("https://i.pinimg.com/originals/5e/57/75/5e57751a32bf2ef4c632938224af85a7.jpg");
    background-repeat: no-repeat;
    background-position: bottom right;
-   background-size:cover;
+   background-size:cover; */
 }
 table{
     padding-top: 22px;
@@ -30,9 +30,11 @@ h1{
       /* background-color:  rgb(168, 196, 194);
       padding: 22px;
       text-align: center;*/
-      font-size: 40px;
-      line-height: 35px;
+      font-size: 50px;
+      line-height: 50px;
       font-family: 'Playfair Display', serif;
+      text-transform: capitalize;
+      text-align: center;
     }
 img{
     /*width: 100%;*/
@@ -42,7 +44,9 @@ img{
     }
  h2{
         color: rgb(168, 196, 194);
-        font-size: 15px;
+        font-size: 25px;
+        text-align: center;
+        font-family: 'Playfair Display', serif;
     }
 p{
         color: rgb(40, 45, 59);
@@ -67,8 +71,8 @@ blockquote{
     background-color: rgba(209, 219, 228, 0.527);
     border-left: 3px rgb(255, 94, 0) solid;
     padding-left: 30px;
-    padding-bottom: 80px;
-    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-top: 40px;
     font-style: italic;
 
   }
@@ -79,7 +83,7 @@ blockquote{
     background-color: yellow;
 } */
 header span{
-    background-color: yellow;
+    background-color: #FC8B2A;
 }
 em, span, strong{
    text-transform: capitalize; 
@@ -93,10 +97,16 @@ em, span, strong{
 tr:nth-child(odd)/* ou (even)si je veux que ça commence de la deuxieme rangée*/ {
     background-color: #ffffff;
 }
+table{
+    border-style: 3px;
+    border-radius: 15px;
+}
  li:first-child{
     background-image: url('https://github.com/becodeorg/BXL-Johnson-3.9/raw/master/Projets/progressive-enhancement/bien.png');
     background-repeat: no-repeat;
     padding-right: 10px;
+    display: block;
+    padding-left: 60px;
 }
 /* #pousseoui{
     background-image: url('https://github.com/becodeorg/BXL-Johnson-3.9/raw/master/Projets/progressive-enhancement/bien.png') no-repeat right;
@@ -105,18 +115,38 @@ tr:nth-child(odd)/* ou (even)si je veux que ça commence de la deuxieme rangée*
 li:nth-child(2){
   background-image: url('https://github.com/becodeorg/BXL-Johnson-3.9/raw/master/Projets/progressive-enhancement/mal.png');
 background-repeat: no-repeat;
-display: inline;
+display: block;
+padding-left: 60px;
 }
 li:nth-child(3){
     background-image: url('https://github.com/becodeorg/BXL-Johnson-3.9/raw/master/Projets/progressive-enhancement/chat.png');
     background-repeat: no-repeat;
+    display: block;
+    padding-left: 60px;
+}
+li:nth-child(4){
+    display: block;
+    padding-left: 60px;
+}
+ol{
+    line-height: 50px;
+
 }
 .notification{
-    background:#FFFFDD;
+    background:rgb(169, 183, 189);
     padding:.5rem 1rem;
     border:3px solid #DDDDCC;
     width:250px;
     font-weight:bold;
     color: #333300;
     /* rajoute le code nécessaire ici*/
+    
+
   }
+  /* finire mise en forme #conclusion{
+      border:12px #FC8B2A;
+  }*/
+hr{
+    border: 1px solid rgb(169, 183, 189);
+
+}
