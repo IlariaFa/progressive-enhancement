@@ -12,6 +12,9 @@ body{
    background-position: bottom right;
    background-size:cover; */
 }
+header{
+    background-image: url("https://i.pinimg.com/originals/5e/57/75/5e57751a32bf2ef4c632938224af85a7.jpg");
+}
 table{
     padding-top: 22px;
     padding-bottom: 22px;
@@ -30,7 +33,7 @@ h1{
       /* background-color:  rgb(168, 196, 194);
       padding: 22px;
       text-align: center;*/
-      font-size: 50px;
+      font-size: 48px;
       line-height: 50px;
       font-family: 'Playfair Display', serif;
       text-transform: capitalize;
@@ -43,13 +46,14 @@ img{
     margin: 30px;    
     }
  h2{
-        color: rgb(168, 196, 194);
-        font-size: 25px;
+        /* color: rgb(168, 196, 194);*/
+        font-size: 21px;
         text-align: center;
         font-family: 'Playfair Display', serif;
     }
 p{
         color: rgb(40, 45, 59);
+        font-size: 14px;
     }
 a:visited{
    color: rgb(37, 145, 196);  
@@ -100,6 +104,7 @@ tr:nth-child(odd)/* ou (even)si je veux que ça commence de la deuxieme rangée*
 table{
     border-style: 3px;
     border-radius: 15px;
+    margin: auto;
 }
  li:first-child{
     background-image: url('https://github.com/becodeorg/BXL-Johnson-3.9/raw/master/Projets/progressive-enhancement/bien.png');
@@ -136,11 +141,14 @@ ol{
     background:rgb(169, 183, 189);
     padding:.5rem 1rem;
     border:3px solid #DDDDCC;
-    width:250px;
+    width:150px;
     font-weight:bold;
     color: #333300;
     /* rajoute le code nécessaire ici*/
-    
+    position: absolute;
+    top: 20px;
+    right: 15px;
+
 
   }
   /* finire mise en forme #conclusion{
