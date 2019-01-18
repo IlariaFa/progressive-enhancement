@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(27, 133, 231);
+    font-family: 'Open Sans', sans-serif;
+}
+ul {
+    list-style: none;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar nav{
+    background-color: rgb(27, 27, 27);
+    padding: 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    
+}
+.navbar li:last-child{
+   margin-left: 500px;
+    
+}
+.fas fa-user{
+    color:white;
+    display:inline-block;
+    
+}
+.small-section{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 120%;
+    text-align: center;
+    position: relative;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.button{
+    background-color: orange;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 15px;
+    font-size: 120%;
+    border-radius: 10px;
+    margin: 30px;
+    display: flex;
+    
+    text-align: center;
+    margin: 15px auto 15px auto;
+}
+.intro{
+    color: white;
+    text-align: center;
+}
+.lead{
+    font-weight: 300px;
+    line-height: 1.4;
+
+}
+.col-1{
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 1px;
+    width: 50%;
+    float: left;
+
+}
+.row {
+    margin-right: - 15px;
+    margin-left: -15px;
+    content: " ";
+    display: table;
+    clear:both;
+    float: left;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.expli{
+    color: white;
+}
