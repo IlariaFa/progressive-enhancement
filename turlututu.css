@@ -32,7 +32,7 @@ ul {
     display:inline-block;
     
 }
-.small-section{
+.small-section {
     background-color: white;
     color: black;
     padding: 10px;
@@ -41,6 +41,7 @@ ul {
     position: relative;
     margin-right: -10px;
     margin-left: -10px;
+    
 }
 .button{
     background-color: orange;
@@ -51,7 +52,6 @@ ul {
     border-radius: 10px;
     margin: 30px;
     display: flex;
-    
     text-align: center;
     margin: 15px auto 15px auto;
 }
@@ -70,14 +70,22 @@ ul {
     padding-right: 15px;
     min-height: 1px;
     width: 50%;
-    float: left;
+    /*float: left;*/
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex:1;
 
 }
 .row {
     margin-right: - 15px;
     margin-left: -15px;
     content: " ";
-    display: table;
+    /*display: table;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
     clear:both;
     float: left;
 }
@@ -89,4 +97,32 @@ ul {
 }
 .expli{
     color: white;
+    margin: 0 10px 10px 40px;
+}
+.small-section2{
+    text-align: center;  
+}
+.logos{
+    background-color: rgb(233, 227, 227);
+    height: 250px;
+}
+.buttons{
+    background-color: white;
+    height: 200px;
+}
+.footer{
+    background-color: black;
+    height: 50px;
+}
+.small-section2{
+    
+}
+.footer li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.footer li{
+  display: inline;
+  margin-top: 10px; 
 }
